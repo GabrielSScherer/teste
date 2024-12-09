@@ -5,10 +5,9 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Login from '../components/Login';
 import Register from '../components/Register';
 import Profile from '../components/Profile';
-
-// Import new Game component
 import Game from '../components/Game';
 
+const root = ReactDOM.createRoot(document.getElementById('root'));
 const AppRoutes = () => {
   return (
     <Router>
@@ -16,7 +15,7 @@ const AppRoutes = () => {
         <Route path="/" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/profile" element={<Profile />} />
-        <Route path="/game" element={<Game />} />
+          <Route path="/game/:id" element={<Game />} />
       </Routes>
     </Router>
   );

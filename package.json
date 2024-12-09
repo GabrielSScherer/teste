@@ -11,8 +11,11 @@
     "axios": "^1.7.7",
     "concurrently": "^7.0.0",
     "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "env": "^0.0.2",
     "jwt-decode": "^4.0.0",
-    "react-router-dom": "^6.27.0"
+    "react-router-dom": "^6.27.0",
+    "websocket": "^1.0.35"
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11"

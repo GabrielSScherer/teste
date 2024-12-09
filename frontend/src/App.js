@@ -21,6 +21,7 @@ function App() {
     <Router>
       {token ? <PrivateNavbar onLogout={handleLogout} /> : <Header />}
       <AppRoutes token={token} handleLogin={handleLogin} handleLogout={handleLogout} />
+
     </Router>
   );
 }

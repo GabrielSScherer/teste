@@ -4,7 +4,7 @@ import Hero from '../components/Hero'; // Componente público Hero
 import Login from '../components/Login'; // Componente de login
 import Register from '../components/Register'; // Componente de registro
 import User from '../components/User'; // Componente de usuário
-import PrivateRoute from '../components/PrivateRoute'; // Componente para rotas protegidas
+import PrivateRoute from '../components/PrivateRoute';
 
 const AppRoutes = ({ token, handleLogin, handleLogout }) => {
   return (
