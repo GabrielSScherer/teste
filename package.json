@@ -13,9 +13,14 @@
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "env": "^0.0.2",
+    "jsonwebtoken": "^9.0.2",
     "jwt-decode": "^4.0.0",
+    "mongoose": "^8.8.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
     "react-router-dom": "^6.27.0",
     "react-scripts": "^5.0.1",
+    "socket.io": "^4.8.1",
     "websocket": "^1.0.35"
   },
   "devDependencies": {
