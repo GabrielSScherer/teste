@@ -6,7 +6,7 @@ let ongoingGames = []; // Lista de jogos em andamento
 const initializeWebSocket = (server) => {
   const io = new Server(server, {
     cors: {
-      origin: 'http://35.160.120.126:3000', // Altere para a porta do seu front-end
+      origin: 'http://10.204.207.45:10000', // Altere para a porta do seu front-end
       methods: ['GET', 'POST'],
     },
   });

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import io from 'socket.io-client';
 
 
-const socket = io('http://35.160.120.126:3000');
+const socket = io('http://10.204.207.45:10000');
 
 const Game = ({ username, opponent }) => {
   const [board, setBoard] = useState(Array(9).fill(null));
