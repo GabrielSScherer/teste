@@ -24,6 +24,7 @@
     "react-router-dom": "^6.27.0",
     "react-scripts": "^5.0.1",
     "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1",
     "websocket": "^1.0.35"
   },
   "devDependencies": {
